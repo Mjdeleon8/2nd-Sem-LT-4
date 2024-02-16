@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Task 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="separator">
+      <div class="spans">
+        <h5>Name:</h5>
+        <span id="name"></span>
+        <h5>ID Number:</h5>
+        <span id="id-learner"></span>
+      </div>
+    </div>
+    <article>
+      <main class="main">
+        <section>
+          <h2>Quiz 10%</h2>
+          <div class="quiz-container">
+            <p>Score:</p>
+            <input class="quiz-score" type="text" id="score-quiz" />
+            <p>Total Score:</p>
+            <input class="quiz-total-score" type="text" id="score-total-quiz" />
+          </div>
+          <div class="long-quiz-container">
+            <h2>Long Quiz 15%</h2>
+            <p>Score:</p>
+            <input class="long-quiz-score" type="text" id="score-long-quiz" />
+            <p>Total Score:</p>
+            <input
+              class="long-quiz-total-score"
+              type="text"
+              id="score-total-long-quiz"
+            />
+          </div>
+          <div class="display">
+            <h1>Total:</h1>
+            <h2 id="display-total-quiz"></h2>
+          </div>
+        </section>
+        <section>
+          <h2>Project 35%</h2>
+          <div class="project-container">
+            <p>Score:</p>
+            <input class="project-score" type="text" id="score-project" />
+            <p>Total Score:</p>
+            <input
+              class="project-total-score"
+              type="text"
+              id="score-total-project"
+            />
+          </div>
+          <h2>Recitation 15%</h2>
+          <div class="recitation-container">
+            <p>Score:</p>
+            <input class="recitation-score" type="text" id="score-recitation" />
+            <p>Total Score:</p>
+            <input
+              class="recitation-total-score"
+              type="text"
+              id="score-total-recitation"
+            />
+          </div>
+          <h2>Attendance 5%</h2>
+          <div class="attendance-container">
+            <p>Score:</p>
+            <input class="attendance-score" type="text" id="score-attendance" />
+            <p>Total Score:</p>
+            <input
+              class="attendance-total-score"
+              type="text"
+              id="score-total-attendance"
+            />
+          </div>
+          <div class="display-pt">
+            <h1>Total:</h1>
+            <h2 id="displayPerformanceTask"></h2>
+          </div>
+        </section>
+        <section>
+          <h2>Quarterly Exam 20%</h2>
+          <div class="exam-container">
+            <p>Score:</p>
+            <input class="exam-score" type="text" id="score-exam" />
+            <p>Total Score:</p>
+            <input class="exam-total-score" type="text" id="score-total-exam" />
+          </div>
+          <div class="display">
+            <h1>Total:</h1>
+            <h2 id="display-exam"></h2>
+          </div>
+        </section>
+      </main>
+    </article>
+    <main class="button-wrapper">
+      <div class="button-container">
+        <button class="btn btn-style" id="btn">Total Grades</button>
+      </div>
+      <h1 id="overall-grades"></h1>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
